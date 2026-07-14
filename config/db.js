@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 const dns = require("dns") 
-dns.setServers(["8.8.8.8","8.8.4.4"])
+dns.setServers(["8.8.8.8","8.8.4.4"]) 
 const connectDB = async () => {
     try {
         await mongoose.connect("mongodb+srv://niharikagolthi:niharika0130@cluster0.6lqc45n.mongodb.net/?appName=Cluster0");
